@@ -24,7 +24,6 @@ function addExpenditure() {
     }
 }
 
-
 // Function to update details on the page and save to local storage
 function updateDetails() {
     const balance = totalIncome - totalExpenditure;
