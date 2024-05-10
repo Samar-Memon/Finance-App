@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Finance | App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>FINANCE APP</h1>
+        <input type="text" placeholder="Enter your Income & Expenses" id="userInput">
+        <div class="buttons">
+            <button id="income" onclick="addIncome()">Income</button>
+            <button id="expenditure" onclick="addExpenditure()">Expenditure</button>
+        </div> <!--buttons-->
+        <div class="main-details">
+            <div class="detail">
+                <h2>Total Income</h2>
+                <hr>
+                <span>Total Income: <b id="totalIncome">0</b></span>
+            </div> <!--detail-->
+            <div class="detail">
+                <h2>Total Expenditure</h2>
+                <hr>
+                <span>Total Expenditure: <b id="totalExpenditure">0</b></span>
+            </div> <!--detail-->
+            <div class="detail">
+                <h2>Balance</h2>
+                <hr>
+                <span>Balnace: <b id="balance">0</b></span>
+            </div> <!--detail-->
+            <div class="detail">
+                <h2>Saving/Loss</h2>
+                <hr>
+                <span>Saving/Loss: <b id="saveLoss">0</b></span>
+            </div> <!--detail-->
+        </div> <!--main-details-->
+    </div> <!--container-->
+
+    <script src="./app.js"></script>
+</body>
+</html>
